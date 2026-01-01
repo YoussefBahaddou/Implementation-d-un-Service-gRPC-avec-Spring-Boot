@@ -1,11 +1,11 @@
-package com.hotel.performance.service;
+package com.youssef.grpc.hotel.service;
 
-import com.hotel.performance.model.Chambre;
-import com.hotel.performance.model.Client;
-import com.hotel.performance.model.Reservation;
-import com.hotel.performance.repository.ChambreRepository;
-import com.hotel.performance.repository.ClientRepository;
-import com.hotel.performance.repository.ReservationRepository;
+import com.youssef.grpc.hotel.model.*;
+import com.youssef.grpc.hotel.model.*;
+import com.youssef.grpc.hotel.model.*;
+import com.youssef.grpc.hotel.repository.*;
+import com.youssef.grpc.hotel.repository.*;
+import com.youssef.grpc.hotel.repository.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -59,3 +59,4 @@ public class HotelService {
         return chambreRepository.save(chambre);
     }
 }
+

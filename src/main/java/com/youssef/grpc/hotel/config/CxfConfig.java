@@ -1,4 +1,4 @@
-package com.hotel.performance.config;
+package com.youssef.grpc.hotel.config;
 
 import com.hotel.performance.soap.SoapService;
 import jakarta.xml.ws.Endpoint;
@@ -24,3 +24,4 @@ public class CxfConfig {
         return endpoint;
     }
 }
+

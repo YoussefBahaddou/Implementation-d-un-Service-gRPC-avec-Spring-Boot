@@ -1,4 +1,4 @@
-package com.hotel.performance.model;
+package com.youssef.grpc.hotel.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -18,3 +18,4 @@ public class Client {
     private String email;
     private String telephone;
 }
+

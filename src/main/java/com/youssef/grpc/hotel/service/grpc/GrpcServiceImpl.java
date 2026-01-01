@@ -1,7 +1,7 @@
-package com.hotel.performance.grpc;
+package com.youssef.grpc.hotel.service.grpc;
 
-import com.hotel.performance.model.Reservation;
-import com.hotel.performance.service.HotelService;
+import com.youssef.grpc.hotel.model.*;
+import com.youssef.grpc.hotel.service.*;
 import io.grpc.stub.StreamObserver;
 import net.devh.boot.grpc.server.service.GrpcService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -75,3 +75,4 @@ public class GrpcServiceImpl extends HotelServiceGrpcGrpc.HotelServiceGrpcImplBa
                 .build();
     }
 }
+

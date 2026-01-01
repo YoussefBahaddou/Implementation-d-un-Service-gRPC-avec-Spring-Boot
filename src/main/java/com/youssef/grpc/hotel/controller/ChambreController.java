@@ -1,7 +1,7 @@
-package com.hotel.performance.controller;
+package com.youssef.grpc.hotel.controller;
 
-import com.hotel.performance.model.Chambre;
-import com.hotel.performance.service.HotelService;
+import com.youssef.grpc.hotel.model.*;
+import com.youssef.grpc.hotel.service.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -17,3 +17,4 @@ public class ChambreController {
         return hotelService.createChambre(chambre);
     }
 }
+

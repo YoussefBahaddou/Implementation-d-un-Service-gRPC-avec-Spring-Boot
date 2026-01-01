@@ -1,7 +1,7 @@
-package com.hotel.performance.controller;
+package com.youssef.grpc.hotel.controller;
 
-import com.hotel.performance.model.Reservation;
-import com.hotel.performance.service.HotelService;
+import com.youssef.grpc.hotel.model.*;
+import com.youssef.grpc.hotel.service.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.graphql.data.method.annotation.Argument;
 import org.springframework.graphql.data.method.annotation.MutationMapping;
@@ -54,3 +54,4 @@ public class GraphqlController {
     record ReservationInput(String dateDebut, String dateFin, String preferences) {
     }
 }
+

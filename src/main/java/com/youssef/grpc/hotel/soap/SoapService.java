@@ -1,6 +1,6 @@
-package com.hotel.performance.soap;
+package com.youssef.grpc.hotel.soap;
 
-import com.hotel.performance.model.Reservation;
+import com.youssef.grpc.hotel.model.*;
 import jakarta.jws.WebMethod;
 import jakarta.jws.WebParam;
 import jakarta.jws.WebService;
@@ -27,3 +27,4 @@ public interface SoapService {
     @WebMethod
     void deleteReservation(@WebParam(name = "id") Long id);
 }
+

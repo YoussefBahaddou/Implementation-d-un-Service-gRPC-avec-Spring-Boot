@@ -1,8 +1,8 @@
 syntax = "proto3";
 
 option java_multiple_files = true;
-option java_package = "com.hotel.performance.grpc";
-option java_outer_classname = "HotelProto";
+option java_package = "com.youssef.grpc.hotel.proto";
+option java_outer_classname = "HotelApi";
 
 service HotelServiceGrpc {
   rpc CreateReservation (CreateReservationRequest) returns (ReservationResponse);

@@ -1,13 +1,14 @@
-package com.hotel.performance;
+package com.youssef.grpc.hotel;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PerformanceComparisonApplication {
+public class HotelServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PerformanceComparisonApplication.class, args);
+		SpringApplication.run(HotelServiceApplication.class, args);
 	}
 
 }
+

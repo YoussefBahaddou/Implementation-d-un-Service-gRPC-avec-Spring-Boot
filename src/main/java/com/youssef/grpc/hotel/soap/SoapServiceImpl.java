@@ -1,7 +1,7 @@
-package com.hotel.performance.soap;
+package com.youssef.grpc.hotel.soap;
 
-import com.hotel.performance.model.Reservation;
-import com.hotel.performance.service.HotelService;
+import com.youssef.grpc.hotel.model.*;
+import com.youssef.grpc.hotel.service.*;
 import jakarta.jws.WebService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -40,3 +40,4 @@ public class SoapServiceImpl implements SoapService {
         hotelService.deleteReservation(id);
     }
 }
+

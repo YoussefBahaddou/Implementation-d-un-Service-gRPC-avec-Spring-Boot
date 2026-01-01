@@ -1,9 +1,10 @@
-package com.hotel.performance.repository;
+package com.youssef.grpc.hotel.repository;
 
-import com.hotel.performance.model.Chambre;
+import com.youssef.grpc.hotel.model.*;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
 public interface ChambreRepository extends JpaRepository<Chambre, Long> {
 }
+
